@@ -1,0 +1,32 @@
+li.posts {
+  display: flex;
+  width: 90%;
+
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+li.posts .image img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+li.posts .comment {
+  background: #ccd6dd;
+  border-radius: 22px;
+  margin-left: 20px;
+}
+
+li.posts .comment span {
+  font-weight: bold;
+}
+
+li.posts .comment p {
+  text-align: left;
+  margin: 10px 0 10px 0;
+  padding-left: 15px;
+
+  color: #363636;
+  margin-top: 20px;
+}

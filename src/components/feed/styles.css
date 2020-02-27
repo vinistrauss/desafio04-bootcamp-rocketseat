@@ -1,0 +1,51 @@
+li.feed {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 0 0 0 20px;
+  border-radius: 6px;
+}
+
+li.feed {
+  display: flex;
+  flex-direction: column;
+}
+
+li.feed .contentFeed {
+  display: flex;
+}
+
+li.feed .contentFeed .titleProfile {
+  display: flex;
+
+  margin-top: 10px;
+}
+
+li.feed .contentFeed .titleProfile .infoProfile {
+  display: flex;
+  flex-direction: column;
+}
+
+li.feed .contentFeed .titleProfile img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+li.feed .contentFeed .titleProfile .infoProfile span:first-child {
+  color: #667580;
+  font-size: 16.5px;
+  font-weight: bold;
+}
+
+li.feed .contentFeed .titleProfile .infoProfile span {
+  color: #9a9a9a;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+li.feed .post {
+  color: #363636;
+  margin-top: 20px;
+}
